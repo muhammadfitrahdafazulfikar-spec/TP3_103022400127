@@ -6,7 +6,7 @@ namespace TP_MODUL3_103022400127
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "";
+            label1.Text = "output";
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -47,10 +47,6 @@ namespace TP_MODUL3_103022400127
         private void button10_Click(object sender, EventArgs e)
         {
             label1.Text += "0";
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnTambah_Click(object sender, EventArgs e)

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -41,17 +40,8 @@
             button10 = new Button();
             btnSamaDengan = new Button();
             btnTambah = new Button();
+            label1 = new Label();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(335, 90);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -163,11 +153,21 @@
             btnTambah.UseVisualStyleBackColor = true;
             btnTambah.Click += btnTambah_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(345, 88);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 14;
+            label1.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(btnTambah);
             Controls.Add(btnSamaDengan);
             Controls.Add(button10);
@@ -180,7 +180,6 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -188,8 +187,6 @@
         }
 
         #endregion
-
-        private Label label1;
         private Button button1;
         private Button button2;
         private Button button3;
@@ -202,5 +199,6 @@
         private Button button10;
         private Button btnSamaDengan;
         private Button btnTambah;
+        private Label label1;
     }
 }
